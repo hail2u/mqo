@@ -1,0 +1,33 @@
+{
+  "name": "node-mqo",
+  "description": "Optimize CSS file for specified width and height.",
+  "version": "0.1.0",
+  "author": "Kyo Nagashima <hail2u@gmail.com> (https://kyonagashima.com/)",
+  "bin": {
+    "mqo": "./bin/mqo"
+  },
+  "bugs": {
+    "url": "https://github.com/hail2u/node-mqo/issues"
+  },
+  "dependencies": {
+    "matchmedia": "^0.1.2",
+    "minimist": "^1.2.0",
+    "nodeunit": "^0.9.1",
+    "postcss": "^5.0.12"
+  },
+  "homepage": "https://github.com/hail2u/node-mqo#readme",
+  "keywords": [
+    "css",
+    "media",
+    "query"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hail2u/node-mqo.git"
+  },
+  "scripts": {
+    "test": "nodeunit test"
+  }
+}
